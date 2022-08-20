@@ -31,3 +31,6 @@ def classify(points):
     pred = prob.argmax(axis=1)
     conf = prob.max(axis=1)
     return pred[0], conf[0]
+
+print('hi')
+# 깃 연습
